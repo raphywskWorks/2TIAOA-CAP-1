@@ -123,11 +123,10 @@ O repositório GitHub deve conter:
 
 | Nome                  | RM         |
 |-----------------------|------------|
-| João da Silva         | RM123456   |
-| Maria Oliveira        | RM234567   |
-| Pedro Santos          | RM345678   |
-| Ana Costa             | RM456789   |
-| Lucas Almeida         | RM567890   |
+| Jonas T V Fernandes   | RM563027   |
+| Ranna Leslie          | RM562685   |
+| Raphael da Silva      | RM561452   |
+| Raphael Dinelli Neto  | RM562892   |
 
 ---
 
