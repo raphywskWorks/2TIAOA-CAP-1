@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="570CFBA5-8DC6-80FE-A836-0A47FD5D8E0D" name="ADUBACAO">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-09 23:38:11 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>nutrientes</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_aplicacao_nutrientes" id="86A500B0-68A3-7F84-70F4-77E220C35E16">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-09 23:39:44 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_area_cultivo" id="C13ECDAD-63C5-A791-8EAD-AF0A4B901651">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 12:34:29 UTC</createdTime>
+<generatorID>D5DC5A24-DA31-89E9-3C13-2A75957F02B6</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<referedAttribute>DAEA5556-2A96-AF8B-3EC5-D205D2E61C9D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="timestamp_aplicacao_nutrientes" id="433DEB15-614F-1EBB-5112-2BCFB25A250D">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-09 23:49:38 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade_aplicado_fosforo_kg" id="486A9FA0-7B5D-C76C-A9DA-848FB5481EE6">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-09 23:41:09 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade_aplicado_nitrogenio_kg" id="64BA6623-B40A-3027-71AA-CD21892F789F">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-09 23:43:36 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade_aplicado_potassio_kg" id="A1AE6E21-77F1-6402-EE1E-458339466570">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-09 23:43:59 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5099A60-3FF6-5A07-A2FC-327D1C43367B" name="aplicacao_nutrientes PK">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-09 23:40:31 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86A500B0-68A3-7F84-70F4-77E220C35E16</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

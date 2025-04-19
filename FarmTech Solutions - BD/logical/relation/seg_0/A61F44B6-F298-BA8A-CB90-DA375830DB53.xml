@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cada area cultivada tem zero o mais irrigacoes" directorySegmentName="seg_0" id="A61F44B6-F298-BA8A-CB90-DA375830DB53">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 13:22:16 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<sourcePk>C1A9B24F-8D0E-A649-831D-2D6268588E30</sourcePk>
+<targetPk>915E37F7-AAC7-D3E6-AEA1-757A055DF496</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>506911E5-24C8-6FD7-A48D-ECA886F43B03</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1387E6F5-BB92-948F-7170-CCD4E24091B8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

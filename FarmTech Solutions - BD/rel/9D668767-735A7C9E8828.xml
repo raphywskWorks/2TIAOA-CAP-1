@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="9D668767-DCAC-63B6-40B1-735A7C9E8828" mainViewID="6A1D24CF-B5F6-2CAA-2695-F957BB2905A1">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-09 15:56:40 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

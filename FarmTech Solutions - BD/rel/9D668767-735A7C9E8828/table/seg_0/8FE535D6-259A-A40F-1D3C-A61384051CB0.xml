@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FE535D6-259A-A40F-1D3C-A61384051CB0" name="SENSOR_NPK">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>51E37FDD-39ED-51CD-6932-FF9F410C629E</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<abbreviation>snpk</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sensor_npk" id="55336915-CE4E-7C3F-A3F5-F7E364C2ED31">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>973F521A-018F-1952-BF55-02DF02BCD679</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_area" id="2F67EDB8-1E3F-4C90-D693-41CB967E3D87">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>A4063275-D318-32E3-B5F1-05545F59278A</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFDD4DD6-49B7-D494-C1AF-941EB3B8B9E0" referredColumn="793CE7EF-7EF3-2BEC-87D3-508E5B509C06"/>
+</associations>
+</Column>
+<Column name="timestamp_medicao" id="87CA9727-E262-DBD7-26DE-98E09905F680">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>C29B60E3-6682-89B3-5A73-8911B10A6C09</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medicao_fosforo_kg" id="E14C74EC-0964-62BC-34BF-71A051AAD87B">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>84765D57-4F8D-5512-B636-B17A5114BD22</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medicao_nitrogenio_kg" id="B1367808-DE1A-5D0B-3E51-31F339B73C8C">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>BA46357C-57C6-653A-E64D-AC13783340EC</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="medicao_potassio_kg" id="35ECC616-5D10-A5A6-B5A9-63F0B4817986">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>0765B203-A969-1FD4-53E9-6A11165C3E2F</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8651D3AC-435C-7DBA-6DE8-4C7F3C973FB1" name="PK_SENSOR_NPK">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>F72FF8CF-8C02-D213-D6C1-FEFEC0056D21</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55336915-CE4E-7C3F-A3F5-F7E364C2ED31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F36D706-F820-215C-DFA5-FC82A9E83E9D" name="UN_SENSOR_NPK">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:39:56 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55336915-CE4E-7C3F-A3F5-F7E364C2ED31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54EE8827-C66E-BA72-F3AA-55A079FE28B9" name="FK_SENSOR_NPK_AREA_CULTIVADA">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>9E858F23-E041-0A15-65D6-4EE0A9583A42</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F67EDB8-1E3F-4C90-D693-41CB967E3D87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

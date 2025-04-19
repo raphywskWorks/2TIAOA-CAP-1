@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cada plantio tem 1 ou mais culturas" directorySegmentName="seg_0" id="16E04EBD-2058-FA2C-1986-730AC49D27C3">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 12:25:17 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<sourcePk>04C83541-ED79-1243-1177-5343969FE238</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>520B3004-F601-B2FF-1F84-D6A8FA4CA5DF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EA219D56-C96F-43DB-985B-24508ECFDC55</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

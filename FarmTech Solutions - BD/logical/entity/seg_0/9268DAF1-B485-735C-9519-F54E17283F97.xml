@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9268DAF1-B485-735C-9519-F54E17283F97" name="SENSOR_PH">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 00:06:46 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>sph</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sensor_ph" id="7C2284A9-D4A1-3D83-C58D-096B955153FA">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 00:06:46 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_area_cultivo" id="519666C8-3BFC-40EF-4065-3271E2D7D0B1">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 12:39:04 UTC</createdTime>
+<generatorID>0A2AAAD7-7B1A-1833-A734-2049BCF5810D</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DAEA5556-2A96-AF8B-3EC5-D205D2E61C9D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="timestamp_medicao" id="2FC3B4B1-A33C-5A50-0BE1-C09C88E9F7B2">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 00:06:46 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_ph" id="1934683C-A411-8120-4890-C36D27C41172">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 00:06:46 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="176FC58D-8059-3DAB-46C1-F4FE3101218E" name="SENSOR_PH PK">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 12:21:56 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7C2284A9-D4A1-3D83-C58D-096B955153FA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

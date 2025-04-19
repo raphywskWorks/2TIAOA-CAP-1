@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Um irrigador faz 0 ou mais irrigacaoes" directorySegmentName="seg_0" id="DEBF502D-B815-DF54-00E6-8E33FFE0C50D">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 13:23:41 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<sourcePk>46EE002E-5510-254A-02EE-25EFC2A2C1A1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2C84F6EE-74FB-1308-9750-B7AF6E8C8491</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1387E6F5-BB92-948F-7170-CCD4E24091B8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

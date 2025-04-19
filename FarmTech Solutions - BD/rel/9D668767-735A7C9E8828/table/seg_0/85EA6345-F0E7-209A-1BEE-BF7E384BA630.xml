@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85EA6345-F0E7-209A-1BEE-BF7E384BA630" name="ADUBACAO">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>570CFBA5-8DC6-80FE-A836-0A47FD5D8E0D</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<abbreviation>nutrientes</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aplicacao_nutrientes" id="E8B8B97D-2FC5-85F2-5E45-0724D6472EC3">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>86A500B0-68A3-7F84-70F4-77E220C35E16</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_area" id="28A3BC32-5630-1917-02D1-02C07ACA38E8">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>C13ECDAD-63C5-A791-8EAD-AF0A4B901651</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D49D5B2-DF02-E12C-F64E-C67BC20CBD54" referredColumn="793CE7EF-7EF3-2BEC-87D3-508E5B509C06"/>
+</associations>
+</Column>
+<Column name="timestamp_aplicacao_nutrientes" id="29A1204E-CE7E-52AB-361D-BFC7A197D222">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>433DEB15-614F-1EBB-5112-2BCFB25A250D</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade_aplicado_fosforo_kg" id="1EAD6971-EB82-08C7-5A7F-F77B147A16C2">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>486A9FA0-7B5D-C76C-A9DA-848FB5481EE6</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade_aplicado_nitrogenio_kg" id="2CC6FCB9-C083-2A88-BD23-F70EBCFFB4FC">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>64BA6623-B40A-3027-71AA-CD21892F789F</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade_aplicado_potassio_kg" id="2D527B72-7986-6782-4282-4BA6BA41D271">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>A1AE6E21-77F1-6402-EE1E-458339466570</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C050F52-B8DE-8FBB-67BE-273E8192A0B7" name="PK_ADUBACAO">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>B5099A60-3FF6-5A07-A2FC-327D1C43367B</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8B8B97D-2FC5-85F2-5E45-0724D6472EC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CEDCFD5-7BF1-A2B5-2395-D2F80A9F0DF4" name="UN_ADUBACAO">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:35:19 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8B8B97D-2FC5-85F2-5E45-0724D6472EC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8EA293A-2A78-F59D-AC7B-1A899916B9F9" name="FK_ADUBACAO_AREA_CULTIVADA">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>D5DC5A24-DA31-89E9-3C13-2A75957F02B6</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28A3BC32-5630-1917-02D1-02C07ACA38E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

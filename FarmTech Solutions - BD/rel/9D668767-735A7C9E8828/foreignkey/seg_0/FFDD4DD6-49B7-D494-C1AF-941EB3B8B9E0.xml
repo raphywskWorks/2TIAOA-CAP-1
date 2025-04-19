@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FFDD4DD6-49B7-D494-C1AF-941EB3B8B9E0" containerWithKeyObject="8FE535D6-259A-A40F-1D3C-A61384051CB0" localFKIndex="54EE8827-C66E-BA72-F3AA-55A079FE28B9" name="FK_SENSOR_NPK_AREA_CULTIVADA">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>9E858F23-E041-0A15-65D6-4EE0A9583A42</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<referredTableLongName>AREA_CULTIVADA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DBE80131-8D0B-0D60-FE4B-85CE716371E7</referredTableID>
+<keyObject>ECD99BE3-963A-7E3E-B42A-9964AB7CDDE3</keyObject>
+<referredKeyID>ECD99BE3-963A-7E3E-B42A-9964AB7CDDE3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_area</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

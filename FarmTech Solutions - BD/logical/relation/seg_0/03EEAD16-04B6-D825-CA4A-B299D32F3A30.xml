@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cada area cultivada possui 0 ou mais sensores de umidade" directorySegmentName="seg_0" id="03EEAD16-04B6-D825-CA4A-B299D32F3A30">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 12:35:52 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<sourcePk>C1A9B24F-8D0E-A649-831D-2D6268588E30</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>506911E5-24C8-6FD7-A48D-ECA886F43B03</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7DB5EF2F-9821-69D1-B4B0-99005760D537</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cada area cultivada tem 0 ou mais tem plantios" directorySegmentName="seg_0" id="AA10F67B-ABC1-A60D-3F6E-26666A0BB07C">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 12:27:20 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<sourcePk>C1A9B24F-8D0E-A649-831D-2D6268588E30</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>506911E5-24C8-6FD7-A48D-ECA886F43B03</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EA219D56-C96F-43DB-985B-24508ECFDC55</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

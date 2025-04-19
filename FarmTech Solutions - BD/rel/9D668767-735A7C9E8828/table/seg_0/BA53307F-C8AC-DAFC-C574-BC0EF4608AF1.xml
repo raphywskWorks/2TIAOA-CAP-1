@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA53307F-C8AC-DAFC-C574-BC0EF4608AF1" name="SENSOR_PH">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>9268DAF1-B485-735C-9519-F54E17283F97</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<abbreviation>sph</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sensor_ph" id="4D92E7D3-B426-6036-2771-FE9F79C0EDFB">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>7C2284A9-D4A1-3D83-C58D-096B955153FA</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_area" id="EBCA76BD-59A5-BBAD-CB9C-DA385A6DCF31">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>519666C8-3BFC-40EF-4065-3271E2D7D0B1</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A8CD216-54E9-C483-8941-FD46CC211001" referredColumn="793CE7EF-7EF3-2BEC-87D3-508E5B509C06"/>
+</associations>
+</Column>
+<Column name="timestamp_medicao" id="65A9902E-53FF-EFF2-AC34-07B35322087A">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>2FC3B4B1-A33C-5A50-0BE1-C09C88E9F7B2</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_ph" id="C24D7D77-E037-AE48-CAF1-9EF62604457A">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>1934683C-A411-8120-4890-C36D27C41172</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66433B8E-C7B9-63AC-C4E8-A6BAFA2F9AAA" name="PK_SENSOR_PH">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>176FC58D-8059-3DAB-46C1-F4FE3101218E</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D92E7D3-B426-6036-2771-FE9F79C0EDFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BC3DA64-7727-7494-7B83-E914A79451F9" name="UN_SENSOR_PH">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:40:21 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D92E7D3-B426-6036-2771-FE9F79C0EDFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29CE9879-4FB5-187B-3CBB-5E2901A0A17A" name="FK_SENSOR_PH_AREA_CULTIVADA">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 15:29:20 UTC</createdTime>
+<generatorID>0A2AAAD7-7B1A-1833-A734-2049BCF5810D</generatorID>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBCA76BD-59A5-BBAD-CB9C-DA385A6DCF31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

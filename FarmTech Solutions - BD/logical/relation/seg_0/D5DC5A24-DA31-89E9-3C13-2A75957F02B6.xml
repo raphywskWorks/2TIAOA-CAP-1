@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cada area cultivada recebe 0 ou mais adubacoes" directorySegmentName="seg_0" id="D5DC5A24-DA31-89E9-3C13-2A75957F02B6">
+<createdBy>Userv</createdBy>
+<createdTime>2025-04-10 12:34:06 UTC</createdTime>
+<ownerDesignName>FarmTech Solutions - BD</ownerDesignName>
+<engineerTo>
+<item key="9D668767-DCAC-63B6-40B1-735A7C9E8828" value="true"/>
+</engineerTo>
+<sourcePk>C1A9B24F-8D0E-A649-831D-2D6268588E30</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>506911E5-24C8-6FD7-A48D-ECA886F43B03</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>570CFBA5-8DC6-80FE-A836-0A47FD5D8E0D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
