@@ -37,72 +37,35 @@ Abaixo, listamos algumas informações que o sistema deve permitir consultar:
 
 ---
 
-### 2. Entidades e Atributos (MER)
+### 2. Breve descrição das Entidades e Atributos (MER) que construímos para o trabalho:
 
-#### 🌾 Cultivo
-- `id_cultivo` (PK)
-- `nome_cultura` (varchar)
-- `localizacao` (varchar)
+#### Area_cultivada: 
+Descreve a area cultivada, tipo de solo e localização por coordenadas do GPS. Se relaciona diretamente com outras tabelas como Plantio, Adubação, Irrigação e Sensores (Npk, Umidade e PH).
 
-#### 🌡️ Sensor
-- `id_sensor` (PK)
-- `tipo_sensor` (varchar) — ex: Umidade, pH, Nutriente
-- `descricao` (varchar)
+#### Plantio:
+Descreve o plantio que foi realizado na área cultivada, características de rotação da cultura (tipo e número), data (timestamp) de plantio e colheitas (última e futura). Se relaciona diretamente com área cultivada e cultura.
 
-#### 📊 Leitura
-- `id_leitura` (PK)
-- `id_sensor` (FK)
-- `id_cultivo` (FK)
-- `data_hora` (datetime)
-- `valor_umidade` (double)
-- `valor_ph` (double)
-- `valor_fosforo` (double)
-- `valor_potassio` (double)
+#### Adubação:
+Descreve a aplicação da adubação sobre a área cultivada, quantidades de nutrientes aplicados e datas (timestamp). Se relaciona diretamente com área cultivada.
 
-#### 💧 Irrigacao
-- `id_irrigacao` (PK)
-- `id_cultivo` (FK)
-- `data_hora` (datetime)
-- `quantidade_agua` (double)
+#### Irrigacao
+Descreve a aplicação da adubação sobre a área cultivada, data da irrigação (timestamp), area irrigada em m2, volumes de irrigação e método. Se relaciona diretamente com área cultivada e irrigadores.
 
----
+#### Irrigadores
+Descreve os comportamento dos aparelhos de irrigação, data de disparo (timestamp), status de operação, volume de agua esperados, tipo do irrigador e localização no gps. Se relaciona diretamente com irrigação.
 
-### 3. Cardinalidades
+#### Cultura
+Descreve as culturas cultivadas, com nomes, especies, variedades e requisitos de agua e nutrientes da adubação. Se relaciona diretamente com plantio.
 
-- Um **Cultivo** pode estar relacionado a **muitas Leituras** (1:N)
-- Um **Sensor** pode gerar **muitas Leituras** (1:N)
-- Um **Cultivo** pode ter **muitas Irrigações** (1:N)
+#### Sensor_NPK
+Descreve as medições dos sensores de NPK: com métricas específicas para Fosforo, Nitrogenio, PH e datas (timestamp) de medição. Se relaciona diretamente com área cultivada.
 
----
+#### Sensor_Umidade
+Descreve as medições dos sensores de Umidade: com a métrica específica de VWC (Conteúdo Volumetrico de agua em percentual) e datas (timestamp) de medição. Se relaciona diretamente com área cultivada.
 
-### 4. Relacionamentos
+#### Sensor_PH
+Descreve as medições dos sensores de PH: com métrica específica de PH e datas (timestamp) de medição. Se relaciona diretamente com área cultivada.
 
-- `Cultivo (1) --- (N) Leitura`
-- `Sensor (1) --- (N) Leitura`
-- `Cultivo (1) --- (N) Irrigacao`
-
----
-
-### 5. Tipos de Dados
-
-| Atributo             | Tipo de Dado |
-|----------------------|--------------|
-| id_cultivo           | int (PK)     |
-| nome_cultura         | varchar(100) |
-| localizacao          | varchar(100) |
-| id_sensor            | int (PK)     |
-| tipo_sensor          | varchar(50)  |
-| descricao            | varchar(255) |
-| id_leitura           | int (PK)     |
-| data_hora            | datetime     |
-| valor_umidade        | double       |
-| valor_ph             | double       |
-| valor_fosforo        | double       |
-| valor_potassio       | double       |
-| id_irrigacao         | int (PK)     |
-| quantidade_agua      | double       |
-
----
 
 ## 🧩 Entregáveis
 
@@ -121,12 +84,13 @@ O repositório GitHub deve conter:
 
 ## 👨‍💻 Grupo
 
-| Nome                  | RM         |
-|-----------------------|------------|
-| Jonas T V Fernandes   | RM563027   |
-| Ranna Leslie          | RM562685   |
-| Raphael da Silva      | RM561452   |
-| Raphael Dinelli Neto  | RM562892   |
+| Nome                          | RM         |
+|-------------------------------|------------|
+| Jonas T V Fernandes           | RM563027   |
+| Ranna Leslie                  | RM562685   |
+| Raphael da Silva              | RM561452   |
+| Raphael Dinelli Neto          | RM562892   |
+| Levi Passos Silveira Marques  | RM565557   |
 
 ---
 
